@@ -11,6 +11,6 @@ homepage="https://github.com/immortalinfidel/rsi-rs"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-ta-common = { version="0.1.2"}
+ta-common = { git = "https://github.com/LinuxHeki/ta-common/" }
 wilders-rs = { version="0.1.1"}
-sma-rs = { version="0.1.1"}
+sma-rs = { git = "https://github.com/LinuxHeki/sma-rs/" }
